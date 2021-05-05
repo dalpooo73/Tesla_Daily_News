@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="heading">
+        <div calss="container">
+            <div class="cube">
+                <img src="images/logo_2.png" alt="1_icon">
+                <img src="images/logo_3.png" alt="1_icon">
+                <img src="images/logo_2.png" alt="1_icon">
+                <img src="images/logo_3.png" alt="1_icon">
+            </div>
+        </div>
+        <script>
+            let deg = 0;
+            setInterval(()=>{
+                deg = deg - 90;
+                document.querySelector(".cube").style.transform = 'rotateX(' + deg + 'deg)';
+            }, 1000)
+        </script>
+        <h1><a href="#">Tesla Daily News</a></h1>
+    </div>
+    <div class="date">
+        <p>05 / 04 / 2021</p>
+    </div>
+    <div class="main_section">
+        <div class="new_list">
+            <a href="0_page.html">Who is Tesla?</a>
+            <div class="liner"></div>
+            <a href="1_page.html">Tesla in Germany</a>
+            <div class="liner"></div>
+            <a href="2_page.html">Tesla Powerwall</a>
+            <div class="liner"></div>
+            <a href="3_page.html">Musk Earnings</a>
+        </div>
+        <div class="contents">
+            <h3>Elon Musk might not take a salary from Tesla, but his compensation could reach $30 billion this year</h3>
+            <img src="images/3_image.jpg" alt="3_image">
+            <p>
+                Elon Musk famously doesn’t accept his salary from Tesla, but the CEO still has a generous compensation plan that has the potential to net him around $30 billion this year.<br><br>
+
+While it’s often reported that Musk doesn’t have a salary at Tesla, he actually officially gets the minimum salary in California, which he doesn’t accept.<br><br>
+
+But that doesn’t mean he doesn’t get compensated for his work at the electric automaker.<br><br>
+
+In 2018, shareholders approved a very generous CEO compensation plan that consists of an important amount of stock options that he can unlock if Tesla achieves certain milestones.<br><br>
+
+The milestones consists of increases in revenue, adjusted EBITDA, and new goals for Tesla’s market valuation.<br><br>
+
+Here are the main details of the compensation plan<br><br>
+</p>
+        </div>
+    </div>
+</body>
+</html>

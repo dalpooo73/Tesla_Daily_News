@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="heading">
+        <div calss="container">
+            <div class="cube">
+                <img src="images/logo_2.png" alt="1_icon">
+                <img src="images/logo_3.png" alt="1_icon">
+                <img src="images/logo_2.png" alt="1_icon">
+                <img src="images/logo_3.png" alt="1_icon">
+            </div>
+        </div>
+        <script>
+            let deg = 0;
+            setInterval(()=>{
+                deg = deg - 90;
+                document.querySelector(".cube").style.transform = 'rotateX(' + deg + 'deg)';
+            }, 1000)
+        </script>
+        <h1><a href="#">Tesla Daily News</a></h1>
+    </div>
+    <div class="date">
+        <p>05 / 04 / 2021</p>
+    </div>
+    <div class="main_section">
+        <div class="new_list">
+            <a href="0_page.html">Who is Tesla?</a>
+            <div class="liner"></div>
+            <a href="1_page.html">Tesla in Germany</a>
+            <div class="liner"></div>
+            <a href="2_page.html">Tesla Powerwall</a>
+            <div class="liner"></div>
+            <a href="3_page.html">Musk Earnings</a>
+        </div>
+        <div class="contents">
+            <h3>Who is Tesla?</h3>
+            <img src="images/0_image.jpg" alt="0_image">
+            <p>
+                Tesla is a transportation and energy company. It sells vehicles under its ‘Tesla Motors’ division and stationary battery packs for home, commercial and utility-scale projects under its ‘Tesla Energy’ division.
+
+                The firm acquired its sister-company, solar installer SolarCity, in 2016. It is now part of its energy division.
+
+                The company is led by Elon Musk, who currently hold the roles of CEO, Co-founder, Chairman, and Product Architect.
+            </p>
+            <a href="https://electrek.co/guides/tesla/"> Origial News </a>
+        </div>
+    </div>   
+</body>
+</html>

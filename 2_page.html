@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="heading">
+        <div calss="container">
+            <div class="cube">
+                <img src="images/logo_2.png" alt="1_icon">
+                <img src="images/logo_3.png" alt="1_icon">
+                <img src="images/logo_2.png" alt="1_icon">
+                <img src="images/logo_3.png" alt="1_icon">
+            </div>
+        </div>
+        <script>
+            let deg = 0;
+            setInterval(()=>{
+                deg = deg - 90;
+                document.querySelector(".cube").style.transform = 'rotateX(' + deg + 'deg)';
+            }, 1000)
+        </script>
+        <h1><a href="#">Tesla Daily News</a></h1>
+    </div>
+    <div class="date">
+        <p>05 / 04 / 2021</p>
+    </div>
+    <div class="main_section">
+        <div class="new_list">
+            <a href="0_page.html">Who is Tesla?</a>
+            <div class="liner"></div>
+            <a href="1_page.html">Tesla in Germany</a>
+            <div class="liner"></div>
+            <a href="2_page.html">Tesla Powerwall</a>
+            <div class="liner"></div>
+            <a href="3_page.html">Musk Earnings</a>
+        </div>
+        <div class="contents">
+            <h3>First Tesla Powerwall+ images and specs released</h3>
+            <img src="images/2_image.jpg" alt="2_image">
+            <p>Tesla has now released the specs and the first images of a new Powerwall + installation after the power update announced by Elon Musk last week.<br><br>
+ 
+                Last week, we reported on Tesla CEO Elon Musk discussing a significant power capacity increase for the home battery pack.<br><br>
+                
+                The first major update to the Powerwall 2 since it was unveiled back in 2016.<br><br>
+                
+                During Tesla’s earnings call on Monday, Musk said that the new Powerwall went into production in November of last year.<br><br>
+                
+                The CEO has been talking about the new version having about twice the power output of the older version.<br><br>
+                
+                Now Tesla has started sending spec sheets of what they are now calling the ‘Powerwall +’ to new buyers (via tangarg):</p>
+        </div>
+    </div>
+</body>
+</html>

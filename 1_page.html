@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="heading">
+        <div calss="container">
+            <div class="cube">
+                <img src="images/logo_2.png" alt="1_icon">
+                <img src="images/logo_3.png" alt="1_icon">
+                <img src="images/logo_2.png" alt="1_icon">
+                <img src="images/logo_3.png" alt="1_icon">
+            </div>
+        </div>
+        <script>
+            let deg = 0;
+            setInterval(()=>{
+                deg = deg - 90;
+                document.querySelector(".cube").style.transform = 'rotateX(' + deg + 'deg)';
+            }, 1000)
+        </script>
+        <h1><a href="#">Tesla Daily News</a></h1>
+    </div>
+    <div class="date">
+        <p>05 / 04 / 2021</p>
+    </div>
+    <div class="main_section">
+        <div class="new_list">
+            <a href="0_page.html">Who is Tesla?</a>
+            <div class="liner"></div>
+            <a href="1_page.html">Tesla in Germany</a>
+            <div class="liner"></div>
+            <a href="2_page.html">Tesla Powerwall</a>
+            <div class="liner"></div>
+            <a href="3_page.html">Musk Earnings</a>
+        </div>
+        <div class="contents">
+            <h3>German newspaper encourages people to literally bet against Tesla (TSLA) in insane article</h3>
+            <img src="images/1_image.jpg" alt="1_image">
+            <p>
+                German newspaper Frankfurter Allgemeine published a fairly crazy article in which it literally encouraged readers to bet against Tesla (TSLA) through a short position in order to bring Elon Musk “to his knees.”<br><br>
+
+Tesla has had a long history with short sellers, which are people who take short positions on stock betting that it will go down.<br><br>
+
+At times, Tesla’s stock was the most shorted stock on the Nasdaq with billions of dollars in bets against them.<br><br>
+
+CEO Elon Musk loves taunting the short sellers – even sending one of them short shorts at some point and warning them that a “tsunami of pain” is coming for them if they hold their positions.<br><br>
+
+He was right. Tesla’s stock has gained a lot in value over the last few years and the shorts have slowed down and reduced their position in Tesla.<br><br>
+
+But economy columnist Daniel Mohr, who works for the Frankfurter Allgemeine newspaper, wants to change that.<br><br>
+
+He posted an article called “How to bet against Elon Musk” in which he encourages readers to bet with Tesla in one of the most dangerous ways: put warrants.<br><br>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

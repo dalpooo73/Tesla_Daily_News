@@ -1,0 +1,135 @@
+*{
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+}
+
+.heading{
+    border-bottom: 8px double black;
+}
+
+.heading{
+    display:grid;
+    grid-template-columns: 250px 1fr;
+    margin-top: 30px;
+}
+
+.heading h1{
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.heading a{
+    text-decoration: none;
+    color: black;
+    font-weight:bolder;
+    font-size: 50px;
+}
+
+.date p{
+    margin-bottom: 10;
+    margin-top: 0;
+    font-size : 12px;
+    text-align: right;
+}
+
+.new_list{
+    font-size: 20px;
+    border-right: 2px solid black;
+    display:block;
+    /* width:250px; */
+    height:1200px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.new_list .liner{
+    background-color: black;
+    border: 0.8px solid black;
+    margin:20px;
+    width:80%;
+    text-align: center;
+}
+
+.new_list a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+.main_section{
+    display:grid;
+    grid-template-columns: 250px 1fr;
+}
+
+.contents{
+    margin: 20px;
+}
+
+.contents p{
+    font-size : 18px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%
+}
+
+.contents img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+    width:50%
+}
+
+.contents h3{
+    font-size: 30px;
+    margin-left:auto;
+    margin-right:auto;
+    width:90%
+}
+
+/* 좌측상단 로고 */
+
+.container{
+    background-color: blue;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height: 100vh; */
+    align-items: center;
+    perspective: 1000px;
+}
+
+.cube{
+    width: 80px;
+    height:80px;
+    transform-style: preserve-3d;
+    transform: rotateY(-35deg);
+    transition: all 1s;
+}
+
+.cube img{
+    position: absolute;
+    top: 0;
+    left:70px;
+}
+
+.cube img:nth-child(1){
+    transform: translateZ(40px);
+}
+
+.cube img:nth-child(2){
+    transform: rotateX(90deg) translateZ(40px);
+
+}
+
+.cube img:nth-child(3){
+    transform: rotateX(180deg) translateZ(40px);
+
+}
+
+.cube img:nth-child(4){
+    transform: rotateX(-90deg) translateZ(40px);
+}
